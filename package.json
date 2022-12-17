@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "ncu": "turbo run ncu",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
