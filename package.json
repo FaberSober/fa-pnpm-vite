@@ -2,17 +2,24 @@
   "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
+    "postinstall": "husky install",
     "ncu": "turbo run ncu",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "build": "turbo run build",
     "clean": "turbo run clean && rimraf /s/d node_modules && pnpm -r exec rimraf /s/d node_modules dist .turbo",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "pnpm build && pnpm release:only",
+    "release:only": "changeset publish --registry=https://registry.npmjs.com/"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.25.2",
     "@fa/eslint-config-custom": "workspace:*",
     "@types/node": "18.11.16",
     "eslint": "8.30.0",
+    "husky": "^8.0.2",
     "prettier": "2.8.1",
     "prettier-plugin-tailwindcss": "0.2.1",
     "rimraf": "^3.0.2",

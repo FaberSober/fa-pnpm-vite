@@ -31,6 +31,7 @@ This Turborepo has some additional tools already setup for you:
 | eslint |  |
 | husky |  |
 | vite |  |
+| changeset |  |
 
 
 
@@ -43,4 +44,19 @@ npx degit vercel/turbo/examples/with-vite with-vite
 cd with-vite
 pnpm install
 git init . && git add . && git commit -m "Init"
+```
+
+### 如何使用changesets
+```
+# 1-1 进行了一些开发...
+# 1-2 提交变更集
+pnpm changeset
+
+# 1-3 提升版本
+# changeset version
+pnpm version-packages 
+
+# 1-4 发包(如果是public的话)
+# pnpm build && pnpm changeset publish --registry=...
+pnpm release 
 ```
