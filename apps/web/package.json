@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "@fa/web",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -16,7 +16,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "6.5.0",
-    "ui": "workspace:*"
+    "@fa/ui": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "18.0.26",
@@ -29,7 +29,7 @@
     "postcss": "8.4.20",
     "@fa/tailwind-config": "workspace:*",
     "tailwindcss": "3.2.4",
-    "tsconfig": "workspace:*",
+    "@fa/tsconfig": "workspace:*",
     "typescript": "4.9.4",
     "vite": "4.0.1",
     "vite-plugin-pages": "0.28.0"

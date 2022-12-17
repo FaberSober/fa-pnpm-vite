@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button} from "antd";
-import {Button as UiButton} from "ui";
+import {Button as UiButton} from "@fa/ui";
 
 
 /**
@@ -18,10 +18,9 @@ export default function index() {
           </span>{" "}
         </h1>
         <div className="mx-auto mt-5 max-w-xl sm:flex sm:justify-center md:mt-8">
-          <Button />
+          <UiButton />
+          <Button type="primary">Hello</Button>
         </div>
-        
-        <Button type="primary">Hello</Button>
       </main>
     </div>
   )
