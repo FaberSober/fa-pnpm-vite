@@ -1,4 +1,5 @@
 import React from 'react';
+import {Button} from "antd";
 
 /**
  * @author xu.pengfei
@@ -6,6 +7,9 @@ import React from 'react';
  */
 export default function index() {
   return (
-    <div>Hello</div>
+    <div>
+      <p>Hello</p>
+      <Button type="primary">Hello</Button>
+    </div>
   )
 }
