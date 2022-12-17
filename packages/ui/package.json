@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "ncu": "ncu -u",
-    "lint": "TIMING=1 eslint \"**/*.{ts,tsx}\""
+    "lint": "eslint \"**/*.{ts,tsx}\""
   },
   "devDependencies": {
     "eslint": "8.30.0",
