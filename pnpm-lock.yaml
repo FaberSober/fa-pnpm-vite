@@ -24,7 +24,7 @@ importers:
       rimraf: registry.npmmirror.com/rimraf/3.0.2
       turbo: registry.npmmirror.com/turbo/1.6.3
 
-  apps/web:
+  apps/admin:
     specifiers:
       '@fa/eslint-config-custom': workspace:*
       '@fa/tailwind-config': workspace:*

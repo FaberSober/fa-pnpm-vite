@@ -32,6 +32,7 @@ This Turborepo has some additional tools already setup for you:
 | husky |  |
 | vite |  |
 | changeset |  |
+| ncu |  |
 
 
 
