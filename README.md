@@ -6,9 +6,13 @@
 
 ### Apps and Packages
 
-- `docs`: a vanilla [vite](https://vitejs.dev) ts app
-- `web`: another vanilla [vite](https://vitejs.dev) ts app
+#### apps
+- `admin`: admin manage web page
+- `portal`: portal web page
+
+
 - `ui`: a stub component & utility library shared by both `web` and `docs` applications
+- `tailwind-config`: tailwind configurations
 - `eslint-config-custom`: shared `eslint` configurations
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 

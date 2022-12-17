@@ -11,7 +11,7 @@
   "devDependencies": {
     "@types/node": "18.11.16",
     "eslint": "8.30.0",
-    "eslint-config-custom": "workspace:*",
+    "@fa/eslint-config-custom": "workspace:*",
     "prettier": "2.8.1",
     "prettier-plugin-tailwindcss": "0.2.1",
     "turbo": "latest"
