@@ -9,7 +9,7 @@ import { ConfigProvider } from 'antd';
 // 国际化
 import 'dayjs/locale/en';
 import 'dayjs/locale/zh-cn';
-import enUS from 'antd/locale/en_US';
+// import enUS from 'antd/locale/en_US';
 import zhCN from 'antd/es/locale/zh_CN';
 
 import './style.css'
