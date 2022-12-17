@@ -27,7 +27,7 @@
     "eslint": "8.30.0",
     "eslint-config-custom": "workspace:*",
     "postcss": "8.4.20",
-    "tailwind-config": "0.1.2",
+    "@fa/tailwind-config": "workspace:*",
     "tailwindcss": "3.2.4",
     "tsconfig": "workspace:*",
     "typescript": "4.9.4",

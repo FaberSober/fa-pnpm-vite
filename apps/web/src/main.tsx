@@ -12,7 +12,8 @@ import 'dayjs/locale/zh-cn';
 // import enUS from 'antd/locale/en_US';
 import zhCN from 'antd/es/locale/zh_CN';
 
-import './style.css'
+import "./styles/globals.css";
+import "ui/styles.css";
 
 import routes from '~react-pages'
 
