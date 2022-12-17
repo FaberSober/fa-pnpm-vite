@@ -1,7 +1,7 @@
 import React from 'react';
-import {Button, DatePicker} from "antd";
-import {Button as UiButton} from "@fa/ui";
-
+import { Button, DatePicker } from 'antd';
+import { Button as UiButton } from '@fa/ui';
+import styles from './index.module.scss';
 
 /**
  * @author xu.pengfei
@@ -15,14 +15,17 @@ export default function index() {
           Web <br className="hidden lg:block" />
           <span className="inline-block bg-gradient-to-r from-brandred to-brandblue bg-clip-text text-transparent">
             Turborepo Example
-          </span>{" "}
+          </span>
         </h1>
         <div className="mx-auto mt-5 max-w-xl sm:flex sm:justify-center md:mt-8">
           <UiButton />
         </div>
+
+        <div className={styles.main}>scss module style</div>
+
         <Button type="primary">Hello</Button>
         <DatePicker />
       </main>
     </div>
-  )
+  );
 }

@@ -20,7 +20,7 @@ export default defineConfig(({ command, mode }) => {
         // 回调必须返回 `local`，`global`，或者 `pure`
         mode: (resourcePath) => {
           // 形如xx.module.less的样式，会使用local模块化编译。其他的则返回全局样式
-          if (/\.module\.(css|less)$/i.test(resourcePath)) {
+          if (/\.module\.(css|less|scss)$/i.test(resourcePath)) {
             return 'local';
           }
           return 'global';
