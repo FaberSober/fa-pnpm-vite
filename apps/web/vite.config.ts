@@ -1,7 +1,6 @@
 import { defineConfig, loadEnv } from 'vite'
 import react from '@vitejs/plugin-react'
 import Pages from 'vite-plugin-pages'
-// import VitePluginImp from "vite-plugin-imp";
 import * as path from 'path';
 
 
@@ -14,25 +13,6 @@ export default defineConfig(({ command, mode }) => {
       Pages({
         exclude: ['**/components/*.tsx', '**/modal/*.tsx'],
       }),
-      // 使用按需导入后，antd动态样式会失效
-      // 按需导入
-      // https://github.com/onebay/vite-plugin-imp
-      // VitePluginImp({
-      //   libList: [
-      //     {
-      //       libName: 'lodash',
-      //       libDirectory: '',
-      //       camel2DashComponentName: false
-      //     },
-      //     {
-      //       libName: "antd",
-      //       // 不写 libList,默认是按需导入css,
-      //       // 想要使用 less, 需要改为加载 es 的 index.js,
-      //       // 里面加载了组件所需的一些 less 文件
-      //       style: (name) => `antd/es/${name}/style/index.js`,
-      //     },
-      //   ],
-      // }),
     ],
     //* css模块化
     css: {
