@@ -15,7 +15,7 @@
     "dayjs": "^1.11.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-router-dom": "6.4.5",
+    "react-router-dom": "6.5.0",
     "ui": "workspace:*"
   },
   "devDependencies": {
@@ -24,14 +24,14 @@
     "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^3.0.0",
     "autoprefixer": "^10.4.13",
-    "eslint": "^7.32.0",
+    "eslint": "^8.30.0",
     "eslint-config-custom": "workspace:*",
     "postcss": "^8.4.20",
     "tailwind-config": "^0.1.2",
     "tailwindcss": "3.2.4",
     "tsconfig": "workspace:*",
-    "typescript": "^4.6.4",
-    "vite": "^3.0.0",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.1",
     "vite-plugin-pages": "^0.28.0"
   }
 }

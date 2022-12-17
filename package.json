@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "ncu": "turbo run ncu -u",
+    "ncu": "turbo run ncu",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "build": "turbo run build",
@@ -10,9 +10,9 @@
   },
   "devDependencies": {
     "@types/node": "^18.11.16",
-    "eslint": "^7.32.0",
+    "eslint": "^8.30.0",
     "eslint-config-custom": "workspace:*",
-    "prettier": "^2.5.1",
+    "prettier": "^2.8.1",
     "prettier-plugin-tailwindcss": "0.2.1",
     "turbo": "latest"
   },
