@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "main": "index.js",
+  "scripts": {
+    "ncu": "ncu -u"
+  },
   "devDependencies": {
     "tailwindcss": "3.2.4"
   }

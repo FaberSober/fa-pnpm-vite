@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "ncu": "turbo run ncu",
+    "ncu": "turbo run ncu -u",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "build": "turbo run build",

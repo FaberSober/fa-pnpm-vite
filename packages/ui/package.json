@@ -5,6 +5,7 @@
   "types": "./index.ts",
   "license": "MIT",
   "scripts": {
+    "ncu": "ncu -u",
     "lint": "TIMING=1 eslint \"**/*.{ts,tsx}\""
   },
   "devDependencies": {
