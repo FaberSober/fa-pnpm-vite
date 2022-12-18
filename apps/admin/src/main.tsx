@@ -21,7 +21,7 @@ function App() {
   return <Suspense fallback={<p>Loading...</p>}>{useRoutes(routes)}</Suspense>;
 }
 
-const app = createRoot(document.getElementById('root')!);
+const app = createRoot(document.getElementById('app')!);
 
 app.render(
   <Router>

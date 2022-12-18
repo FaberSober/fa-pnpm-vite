@@ -8,8 +8,20 @@ import styles from './index.module.scss';
  * @date 2022/12/17 17:23
  */
 export default function index() {
+  function handleChangeTheme(e: any) {
+    const theme = e.target.dataset.theme;
+    document.body.setAttribute('data-theme', theme);
+
+    const currentThemeNode = document.getElementById('theme-current');
+    if (theme === 'light') {
+      currentThemeNode!.textContent = '亮色';
+    } else if (theme === 'dark') {
+      currentThemeNode!.textContent = '暗色';
+    }
+  }
+
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="flex min-h-screen flex-col items-center justify-center">
       <main className="mx-auto w-auto px-4 pt-16 pb-8 sm:pt-24 lg:px-8">
         <h1 className="mx-auto max-w-5xl text-center text-6xl font-extrabold leading-[1.1] tracking-tighter text-white sm:text-7xl lg:text-8xl xl:text-8xl">
           Web <br className="hidden lg:block" />
@@ -33,6 +45,17 @@ export default function index() {
 
         <Button type="primary">Hello</Button>
         <DatePicker />
+
+        <h1 className="title">Hello, World</h1>
+        <p className="subtitle">
+          当前主题：<span id="theme-current">亮色</span>
+        </p>
+        <button className="theme-switch light" data-theme="light" onClick={handleChangeTheme}>
+          亮色
+        </button>
+        <button className="theme-switch dark" data-theme="dark" onClick={handleChangeTheme}>
+          暗色
+        </button>
       </main>
     </div>
   );
