@@ -11,3 +11,5 @@ declare namespace FaUi {
     children?: ReactNode;
   }
 }
+
+export default FaUi;

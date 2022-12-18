@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import { Button, ConfigProvider, DatePicker, Form, InputNumber, Radio, Space } from 'antd';
-import { Button as UiButton } from '@fa/ui';
+import { Button, ButtonProps, ConfigProvider, DatePicker, Form, InputNumber, Radio, Space } from 'antd';
+import { Button as UiButton, FaUi } from '@fa/ui';
 import clsx from 'clsx';
 import styles from './index.module.scss';
-import { FaUi } from '@fa/ui/types';
 
 type ThemeData = {
   borderRadius: number;
@@ -16,10 +15,13 @@ const defaultData: ThemeData = {
 };
 
 const tag: Demo.Student = { name: 'foo' };
-console.log(tag);
+console.log('Admin', 'Demo.Student', tag);
 
 const classA: FaUi.ClassA = { name: 'foo' };
-console.log(classA);
+console.log('Admin', 'FaUi.ClassA', classA);
+
+const buttonProps: ButtonProps = { type: 'primary' };
+console.log('Admin', 'ButtonProps', buttonProps);
 
 /**
  * @author xu.pengfei

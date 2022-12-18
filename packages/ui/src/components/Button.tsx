@@ -1,12 +1,10 @@
 import * as React from 'react';
-import { ReactNode } from 'react';
+import FaUi from '@/types';
 
-export interface ButtonProps {
-  title?: string;
-  children?: ReactNode;
-}
+const classA: FaUi.ClassA = { name: 'foo' };
+console.log('Button', 'classA', classA);
 
-export const Button = (props: ButtonProps) => {
+export const Button = (props: FaUi.Button) => {
   console.log('Hello Button from @fa/ui', props);
   return (
     <div className="rounded-md ">
