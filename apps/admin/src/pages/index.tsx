@@ -3,6 +3,7 @@ import { Button, ConfigProvider, DatePicker, Form, InputNumber, Radio, Space } f
 import { Button as UiButton } from '@fa/ui';
 import clsx from 'clsx';
 import styles from './index.module.scss';
+import { FaUi } from '@fa/ui/types';
 
 type ThemeData = {
   borderRadius: number;
@@ -16,6 +17,9 @@ const defaultData: ThemeData = {
 
 const tag: Demo.Student = { name: 'foo' };
 console.log(tag);
+
+const classA: FaUi.ClassA = { name: 'foo' };
+console.log(classA);
 
 /**
  * @author xu.pengfei
@@ -48,7 +52,9 @@ export default function index() {
             </span>
           </h1>
           <div className="mx-auto max-w-xl mb-4">
-            <UiButton />
+            <UiButton title="hello">
+              <span>, World.</span>
+            </UiButton>
           </div>
 
           <div className={clsx(styles.main, 'mx-auto', 'mb-4')}>
