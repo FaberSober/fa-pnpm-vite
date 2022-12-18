@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Button, ButtonProps, ConfigProvider, DatePicker, Form, InputNumber, Radio, Space } from 'antd';
 import { Button as UiButton, FaUi } from '@fa/ui';
 import clsx from 'clsx';
+import api from '@/api/api';
 import styles from './index.module.scss';
 
 type ThemeData = {
@@ -30,6 +31,14 @@ console.log('Admin', 'ButtonProps', buttonProps);
 export default function index() {
   const [form] = Form.useForm();
   const [data, setData] = useState<ThemeData>(defaultData);
+
+  useEffect(() => {
+    const bar: Foo.Bar = { name: 'bar' };
+    console.log('Admin', 'Foo.Bar', bar);
+
+    const bar2: Foo.Bar = api.fun('bar2');
+    console.log('Admin', 'Foo.Bar', bar2);
+  }, []);
 
   function handleChangeTheme(e: any) {
     const theme = e.target.dataset.theme;
