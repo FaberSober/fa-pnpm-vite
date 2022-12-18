@@ -40,8 +40,8 @@ This Turborepo has some additional tools already setup for you:
 Run the following command:
 
 ```sh
-npx degit vercel/turbo/examples/with-vite with-vite
-cd with-vite
+npx degit FaberSober/fa-pnpm-vite fa-pnpm-vite
+cd fa-pnpm-vite
 pnpm install
 git init . && git add . && git commit -m "Init"
 ```
