@@ -21,7 +21,15 @@ export default function index() {
           <UiButton />
         </div>
 
-        <div className={styles.main}>scss module style</div>
+        <div className={styles.main}>
+          <div className={styles.title}>scss module style</div>
+
+          <div className={styles.info}>mi info</div>
+          <div className={styles.alert}>mi info</div>
+          <div className={styles.success}>mi info</div>
+
+          <Button type="primary">Style Changed By Sass Global</Button>
+        </div>
 
         <Button type="primary">Hello</Button>
         <DatePicker />

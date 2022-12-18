@@ -34,6 +34,7 @@ This Turborepo has some additional tools already setup for you:
 | changeset   |                                                  |
 | ncu         |                                                  |
 | postcss     | https://postcss.org/                             |
+| sass        | https://sass-lang.com/                           |
 
 ## Using this example
 
