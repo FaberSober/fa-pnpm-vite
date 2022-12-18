@@ -1,4 +1,14 @@
 {
   "extends": "@fa/tsconfig/vite.json",
-  "include": ["src"]
+  //  "include": [
+  //    "src",
+  //    "types"
+  //  ],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+      //      "Demo": ["types/demo.d.ts"]
+    }
+  }
 }

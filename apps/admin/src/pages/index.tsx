@@ -14,6 +14,9 @@ const defaultData: ThemeData = {
   colorPrimary: '#1677ff',
 };
 
+const tag: Demo.Student = { name: 'foo' };
+console.log(tag);
+
 /**
  * @author xu.pengfei
  * @date 2022/12/17 17:23
