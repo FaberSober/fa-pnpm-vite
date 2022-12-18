@@ -15,7 +15,7 @@
 }
 
 .main {
-  background-color: #f00;
+  background-color: #f86363;
   width: 400px;
   height: 200px;
   display: flex;
@@ -25,5 +25,11 @@
   .title {
     font-size: 14px;
     color: #fff;
+  }
+
+  :global {
+    .ant-btn {
+      background-color: yellowgreen;
+    }
   }
 }
