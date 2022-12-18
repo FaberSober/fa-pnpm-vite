@@ -10,6 +10,7 @@ import 'dayjs/locale/zh-cn';
 import zhCN from 'antd/es/locale/zh_CN';
 
 import './styles/globals.scss';
+import '@fa/theme/theme.scss';
 import '@fa/ui/styles.css';
 
 import routes from '~react-pages';

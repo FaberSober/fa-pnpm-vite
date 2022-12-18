@@ -30,6 +30,7 @@ importers:
     specifiers:
       '@fa/eslint-config-custom': workspace:*
       '@fa/tailwind-config': workspace:*
+      '@fa/theme': workspace:*
       '@fa/tsconfig': workspace:*
       '@fa/ui': workspace:*
       '@types/react': 18.0.26
@@ -61,6 +62,7 @@ importers:
     devDependencies:
       '@fa/eslint-config-custom': link:../../packages/eslint-config-custom
       '@fa/tailwind-config': link:../../packages/tailwind-config
+      '@fa/theme': link:../../packages/theme
       '@fa/tsconfig': link:../../packages/tsconfig
       '@types/react': registry.npmmirror.com/@types/react/18.0.26
       '@types/react-dom': registry.npmmirror.com/@types/react-dom/18.0.9
@@ -90,6 +92,9 @@ importers:
       tailwindcss: 3.2.4
     devDependencies:
       tailwindcss: registry.npmmirror.com/tailwindcss/3.2.4_postcss@8.4.20
+
+  packages/theme:
+    specifiers: {}
 
   packages/tsconfig:
     specifiers: {}

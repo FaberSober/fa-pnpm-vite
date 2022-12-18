@@ -38,7 +38,7 @@ export default function index() {
     <ConfigProvider theme={{ token: { colorPrimary: data.colorPrimary, borderRadius: data.borderRadius } }}>
       <div className="flex min-h-screen flex-col items-center justify-center">
         <main className="mx-auto w-auto px-4 pt-4 pb-4 sm:pt-12 lg:px-8">
-          <h1 className="mx-auto max-w-5xl text-center text-6xl font-extrabold leading-[1.1] tracking-tighter text-white sm:text-7xl lg:text-8xl xl:text-8xl">
+          <h1 className="mx-auto max-w-5xl text-center text-6xl font-extrabold leading-[1.1] tracking-tighter sm:text-7xl lg:text-8xl xl:text-8xl">
             Web <br className="hidden lg:block" />
             <span className="inline-block bg-gradient-to-r from-brandred to-brandblue bg-clip-text text-transparent">
               Turborepo Example
