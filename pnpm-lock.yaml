@@ -38,6 +38,7 @@ importers:
       '@vitejs/plugin-react': 3.0.0
       antd: 5.0.7
       autoprefixer: 10.4.13
+      clsx: ^1.2.1
       dayjs: 1.11.7
       eslint: 8.30.0
       postcss: 8.4.20
@@ -52,6 +53,7 @@ importers:
     dependencies:
       '@fa/ui': link:../../packages/ui
       antd: registry.npmmirror.com/antd/5.0.7_biqbaboplfbrettd7655fr4n2y
+      clsx: registry.npmmirror.com/clsx/1.2.1
       dayjs: registry.npmmirror.com/dayjs/1.11.7
       react: registry.npmmirror.com/react/18.2.0
       react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
@@ -1937,6 +1939,13 @@ packages:
     version: 1.0.4
     engines: {node: '>=0.8'}
     dev: true
+
+  registry.npmmirror.com/clsx/1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/clsx/-/clsx-1.2.1.tgz}
+    name: clsx
+    version: 1.2.1
+    engines: {node: '>=6'}
+    dev: false
 
   registry.npmmirror.com/color-convert/1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/color-convert/-/color-convert-1.9.3.tgz}

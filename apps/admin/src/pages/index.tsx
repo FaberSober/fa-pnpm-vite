@@ -1,6 +1,7 @@
 import React from 'react';
-import { Button, DatePicker } from 'antd';
+import { Button, DatePicker, Space } from 'antd';
 import { Button as UiButton } from '@fa/ui';
+import c from 'clsx';
 import styles from './index.module.scss';
 
 /**
@@ -29,11 +30,11 @@ export default function index() {
             Turborepo Example
           </span>
         </h1>
-        <div className="mx-auto mt-5 max-w-xl sm:flex sm:justify-center md:mt-8">
+        <div className="mx-auto max-w-xl mb-4">
           <UiButton />
         </div>
 
-        <div className={styles.main}>
+        <div className={clsx(styles.main, 'mx-auto', 'mb-4')}>
           <div className={styles.title}>scss module style</div>
 
           <div className={styles.info}>mi info</div>
@@ -43,8 +44,10 @@ export default function index() {
           <Button type="primary">Style Changed By Sass Global</Button>
         </div>
 
-        <Button type="primary">Hello</Button>
-        <DatePicker />
+        <Space>
+          <Button type="primary">Hello</Button>
+          <DatePicker />
+        </Space>
 
         <h1 className="title">Hello, World</h1>
         <p className="subtitle">
