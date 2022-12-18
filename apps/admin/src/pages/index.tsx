@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, DatePicker, Space } from 'antd';
 import { Button as UiButton } from '@fa/ui';
-import c from 'clsx';
+import clsx from 'clsx';
 import styles from './index.module.scss';
 
 /**
