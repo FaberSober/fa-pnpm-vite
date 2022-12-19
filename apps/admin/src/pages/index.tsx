@@ -4,7 +4,7 @@ import { Button as UiButton, FaUi } from '@fa/ui';
 import clsx from 'clsx';
 import api from '@/api/api';
 import styles from './index.module.scss';
-import { Demo, Foo, Bar } from '@/types';
+import { Demo, Foo, Bar, Enums } from '@/types';
 
 type ThemeData = {
   borderRadius: number;
@@ -25,6 +25,8 @@ console.log('Admin', 'FaUi.ClassA', classA);
 const buttonProps: ButtonProps = { type: 'primary' };
 console.log('Admin', 'ButtonProps', buttonProps);
 
+console.log('Enums', Enums.Status);
+
 /**
  * @author xu.pengfei
  * @date 2022/12/17 17:23
@@ -42,6 +44,8 @@ export default function index() {
 
     const bar: Bar.ClassBar = { name: 'bar' };
     console.log('Admin', 'Bar.ClassBar', bar);
+
+    console.log('Enums', Enums.Status);
   }, []);
 
   function handleChangeTheme(e: any) {

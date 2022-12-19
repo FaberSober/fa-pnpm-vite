@@ -6,7 +6,7 @@
     "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
-      //      "FaUi": ["src/types/index.d.ts"] // This mapping is relative to "baseUrl"
+      //      "FaUi": ["src/types/index.ts"] // This mapping is relative to "baseUrl"
     }
   }
 }
