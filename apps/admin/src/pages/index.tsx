@@ -4,7 +4,7 @@ import { Button as UiButton, FaUi } from '@fa/ui';
 import clsx from 'clsx';
 import api from '@/api/api';
 import styles from './index.module.scss';
-import { Demo, Foo } from '@/types';
+import { Demo, Foo, Bar } from '@/types';
 
 type ThemeData = {
   borderRadius: number;
@@ -34,11 +34,14 @@ export default function index() {
   const [data, setData] = useState<ThemeData>(defaultData);
 
   useEffect(() => {
-    const bar: Foo.Bar = { name: 'bar' };
-    console.log('Admin', 'Foo.Bar', bar);
+    const foo: Foo.ClassFoo = { name: 'foo' };
+    console.log('Admin', 'Foo.ClassFoo', foo);
 
-    const bar2: Foo.Bar = api.fun('bar2');
-    console.log('Admin', 'Foo.Bar', bar2);
+    const foo2: Foo.ClassFoo = api.fun('foo2');
+    console.log('Admin', 'Foo.ClassFoo', foo2);
+
+    const bar: Bar.ClassBar = { name: 'bar' };
+    console.log('Admin', 'Bar.ClassBar', bar);
   }, []);
 
   function handleChangeTheme(e: any) {

@@ -1,8 +1,6 @@
-declare namespace Foo {
+declare module 'Foo' {
   /** Demo-学生表 */
-  export interface Bar {
+  export interface ClassFoo {
     name: string;
   }
 }
-
-export default Foo;
