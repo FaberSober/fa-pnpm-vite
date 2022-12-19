@@ -35,6 +35,7 @@ This Turborepo has some additional tools already setup for you:
 | ncu         |                                                  |
 | postcss     | https://postcss.org/                             |
 | sass        | https://sass-lang.com/                           |
+| tsup        | https://tsup.egoist.dev/                         |
 
 ## Using this example
 

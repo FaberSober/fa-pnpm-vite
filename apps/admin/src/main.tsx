@@ -12,6 +12,7 @@ import zhCN from 'antd/es/locale/zh_CN';
 import './styles/globals.scss';
 import '@fa/theme/theme.scss';
 import '@fa/ui/styles.css';
+import { PageLoading } from '@fa/ui';
 
 import routes from '~react-pages';
 
@@ -19,7 +20,7 @@ import routes from '~react-pages';
 console.log(routes);
 
 function App() {
-  return <Suspense fallback={<p>Loading...</p>}>{useRoutes(routes)}</Suspense>;
+  return <Suspense fallback={<PageLoading />}>{useRoutes(routes)}</Suspense>;
 }
 
 const app = createRoot(document.getElementById('app')!);
