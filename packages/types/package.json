@@ -11,7 +11,7 @@
   "scripts": {
     "ncu": "ncu -u",
     "dev": "concurrently \"tsup src/index.ts --format esm,cjs --dts --external react --watch\"",
-    "lint": "eslint \"**/*.ts\""
+    "lint": "eslint \"**/*.{ts,tsx}\""
   },
   "devDependencies": {
     "@fa/eslint-config-custom": "workspace:*",
