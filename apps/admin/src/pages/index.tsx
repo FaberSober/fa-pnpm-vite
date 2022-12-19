@@ -4,6 +4,7 @@ import { Button as UiButton, FaUi } from '@fa/ui';
 import clsx from 'clsx';
 import api from '@/api/api';
 import styles from './index.module.scss';
+import { Demo, Foo } from '@/types';
 
 type ThemeData = {
   borderRadius: number;

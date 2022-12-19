@@ -4,3 +4,5 @@ declare namespace Demo {
     name: string;
   }
 }
+
+export default Demo;
