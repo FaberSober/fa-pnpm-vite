@@ -44,7 +44,7 @@ Run the following command:
 ```sh
 npx degit FaberSober/fa-pnpm-vite fa-pnpm-vite
 cd fa-pnpm-vite
-pnpm install
+pnpm install --ignore-scripts
 git init . && git add . && git commit -m "Init"
 ```
 
