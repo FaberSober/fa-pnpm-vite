@@ -13,7 +13,7 @@
   "dependencies": {
     "@fa/types": "workspace:*",
     "@fa/ui": "workspace:*",
-    "antd": "5.2.1",
+    "antd": "5.21.2",
     "clsx": "1.2.1",
     "dayjs": "1.11.7",
     "react": "18.2.0",

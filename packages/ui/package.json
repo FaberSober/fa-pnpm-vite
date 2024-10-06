@@ -19,7 +19,7 @@
     "@fa/tsconfig": "workspace:*",
     "@fa/types": "workspace:*",
     "@types/react": "18.0.28",
-    "antd": "5.2.1",
+    "antd": "5.21.2",
     "autoprefixer": "10.4.13",
     "concurrently": "7.6.0",
     "eslint": "8.34.0",
