@@ -62,7 +62,7 @@ export default function index() {
 
   return (
     <ConfigProvider theme={{ token: { colorPrimary: data.colorPrimary, borderRadius: data.borderRadius } }}>
-      <div className="flex min-h-screen flex-col items-center justify-center">
+      <div className="flex min-h-screen flex-col items-center justify-center" style={{ textAlign: 'center' }}>
         <main className="mx-auto w-auto px-4 pt-4 pb-4 sm:pt-12 lg:px-8">
           <h1 className="mx-auto max-w-5xl text-center text-6xl font-extrabold leading-[1.1] tracking-tighter sm:text-7xl lg:text-8xl xl:text-8xl">
             Web <br className="hidden lg:block" />
