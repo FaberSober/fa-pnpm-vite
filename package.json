@@ -1,4 +1,5 @@
 {
+  "name": "@fa/vite",
   "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
@@ -27,5 +28,5 @@
     "rimraf": "3.0.2",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@7.18.2"
+  "packageManager": "pnpm@9.1.4"
 }
