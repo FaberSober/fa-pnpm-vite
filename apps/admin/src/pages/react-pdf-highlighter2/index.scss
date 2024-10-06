@@ -1,0 +1,23 @@
+.fa-main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.fa-flex1 {
+  flex: 1;
+}
+
+.fa-panel {
+  flex: 1;
+  position: relative;
+}
+
+.fa-pdf-container {
+  position: absolute;
+  //left: 0;
+  //right: 0;
+  //top: 0;
+  //bottom: 0;
+  inset: 0;
+}
