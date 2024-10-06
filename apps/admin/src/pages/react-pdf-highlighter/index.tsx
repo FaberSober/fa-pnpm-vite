@@ -20,7 +20,7 @@ export default function ReactPdfHighlighter() {
         <div className="fa-pdf-container">
           <PdfLoader
             url="/plugins/pdfjs/test.pdf"
-            // workerSrc="/plugins/pdfjs/pdfjs-dist@3.3.122/build/pdf.worker.min.js"
+            workerSrc="/plugins/pdfjs/pdfjs-dist@4.4.168/build/pdf.worker.min.mjs"
             beforeLoad={<div>Loading</div>}
           >
             {(pdfDocument) => (
